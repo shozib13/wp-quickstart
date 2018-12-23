@@ -1045,5 +1045,40 @@ li.comment {
 }
 
 
+/**
+* Sidebar
+*/
+
+#secondary {
+	background: #ddd;
+	height: 100%;
+	padding: 20px 30px;
+}
+
+#secondary .widget-title {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#secondary ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#secondary ul li:last-child {
+	margin-bottom: 0;
+}
+
+#secondary .widget {
+	border-bottom: 1px solid rgba(255,255, 255,.3);
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+#secondary .widget:last-child {
+	border-bottom: none;
+}
+
 
 
