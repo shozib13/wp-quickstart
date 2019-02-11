@@ -36,9 +36,7 @@
 				<div class="row">
 					<div class="col-lg-3 col-6">
 						<div class="logo">
-							<a href="<?php echo home_url(); ?>">
-                                <img src="<?php the_field('logo', 'option'); ?>" alt="<?php bloginfo('name') ?>" class="primary-logo"><br>
-                            </a>
+							<a href="<?php echo home_url(); ?>"><img src="<?php the_field('logo', 'option'); ?>" alt="<?php bloginfo('name') ?>"></a>
 						</div>
 					</div><!-- end .col-md-3 -->
 					<div class="col-lg-9 col-6">
