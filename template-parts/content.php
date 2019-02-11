@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Shift_Business
+ * @package greenapple
  */
 
 ?>
@@ -27,5 +27,7 @@
 	<div class="entry-meta">
 		<?php the_author_posts_link(); ?>  on <?php echo the_time('M d, YY'); ?>
 	</div>
+
+	<a href="<?php the_permalink(); ?>" class="readmore-blog">Read more...</a>
 
 </article><!-- end article -->
