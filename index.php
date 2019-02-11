@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Shift_Business
+ * @package greenapple
  */
 
 get_header();
@@ -26,7 +26,6 @@ $banner_image = get_field('blog_banner', 'option');
 	<section id="content" class="site-content">
 		<div class="container">
 			<div class="row">
-				<?php get_sidebar(); ?>
 
 				<div class="col-lg-9">
 					<div id="primary" class="content-area">
@@ -54,9 +53,10 @@ $banner_image = get_field('blog_banner', 'option');
 						</main><!-- end #main -->
 					</div><!-- end #section -->
 				</div><!-- end .col-lg-9 -->
+				
+				<?php get_sidebar(); ?>
 			</div><!-- end .row -->
 		</div><!-- end .container -->
 	</section><!-- end #content -->
 <?php
-get_template_part('template-parts/call-to-action');
 get_footer();
