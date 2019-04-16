@@ -15,7 +15,7 @@ $banner_title = '404 Error!';
 		<div class="container">
 			<div class="banner-capton" style="background-image: url(<?php echo $banner_image;  ?>)">
 				<?php if(!empty($banner_title)): ?>
-					<h1><?php echo $banner_title; ?></h1>
+					<h1 class="text-center"><?php echo $banner_title; ?></h1>
 				<?php endif; ?>
 			</div>
 		</div>
