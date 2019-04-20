@@ -21,10 +21,10 @@ add_action( 'init', function(){
  
             'public' => true,
             'menu_position' => 5,
-            'supports' => array( 'title','thumbnail'),
-            'taxonomies' => array( '' ),
+            'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail'),
+            'taxonomies' => array( 'category', 'post_tag' ),
             'menu_icon' => 'dashicons-admin-multisite',
-            'has_archive' => true
+            'has_archive' => false
         )
     );
 });
