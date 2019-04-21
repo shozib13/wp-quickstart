@@ -25,7 +25,7 @@
 	</div><!-- end .entry-content -->
 
 	<div class="entry-meta">
-		<?php the_author_posts_link(); ?>  on <?php echo the_time('M d, YY'); ?>
+		<?php the_author_posts_link(); ?>  on <?php echo the_time('M d, Y'); ?>
 	</div>
 
 	<a href="<?php the_permalink(); ?>" class="readmore-blog">Read more...</a>
