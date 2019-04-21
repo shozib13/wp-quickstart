@@ -8,26 +8,16 @@
  */
 
 get_header();
-$banner_image = get_field('blog_banner', 'option');
-$banner_title = '404 Error!';
-?>
-	<section id="page-banner">
-		<div class="container">
-			<div class="banner-capton" style="background-image: url(<?php echo $banner_image;  ?>)">
-				<?php if(!empty($banner_title)): ?>
-					<h1 class="text-center"><?php echo $banner_title; ?></h1>
-				<?php endif; ?>
-			</div>
-		</div>
-	</section><!-- end #page-banner -->
 
-	<section id="content" class="site-content">
+?>
+
+	<section id="content" class="blog-content">
 		<div class="container">
 			<div id="primary" class="content-area error-404">
 				<main id="main" class="site-page">
-					<h2 style="text-center">Not Found What You Are Lookin For</h2>
-					<p style="text-center"><a href="<?php the_permalink(); ?>"><i class="fa fa-home"></i> Go Back To Home</a> <br><br> Or Search Following</p>
-					<?php get_search_form(); ?>
+					<h1 class="text-center">404! ERROR</h1>
+					<h2 class="text-center">Not Found What You Are Lookin For</h2>
+					<p class="text-center"><a href="<?php echo home_url(); ?>"><i class="fa fa-home"></i> Go Back To Home</a></p>
 				</main><!-- #main -->
 			</div><!-- #primary -->
 		</div>
