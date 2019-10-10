@@ -41,7 +41,7 @@
 					</div><!-- end .col-md-3 -->
 					<div class="col-lg-9 col-6">
 						<nav id="nav">
-							<?php wp_nav_menu( array( 'name' => 'primary-menu', 'container' => false) ); ?>
+							<?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => false) ); ?>
 						</nav>
 
 						<div id="mobile-menu">
