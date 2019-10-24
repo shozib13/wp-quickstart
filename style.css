@@ -1082,3 +1082,49 @@ li.comment {
 
 
 
+.numaric-pagination {
+	text-align: center;
+	display: block;
+    width: 100%;
+    clear: both;
+	margin-top: 50px;
+}
+
+.numaric-pagination ul {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.numaric-pagination ul li {
+	display: inline-block;
+}
+
+.numaric-pagination ul li a,
+.numaric-pagination ul li span {
+	display: inline-block;
+	width: 30px; 
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	margin-left: 10px; 
+	margin-right: 10px;
+}
+
+.numaric-pagination ul li span {
+	color: #d85846;
+}
+
+.numaric-pagination ul li a {
+	background-color: #d85846;
+	border-radius: 2px;
+	color: #fff;
+}
+
+.numaric-pagination ul li a:hover {
+	text-decoration: none;
+}
+
+
+
